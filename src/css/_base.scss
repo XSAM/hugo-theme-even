@@ -10,7 +10,7 @@ body {
   margin: 0;
   font-family: $global-font-family;
   font-weight: normal;
-  -webkit-font-smoothing: antialiased;
+  //-webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: $global-lineheight;
   color: $global-font-color;
