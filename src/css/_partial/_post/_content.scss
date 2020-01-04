@@ -25,7 +25,9 @@
           font-size: 16px;
 
           &:before {
-            vertical-align: middle;
+            // vertical-align: middle;
+            // Workaround: https://github.com/olOwOlo/hugo-theme-even/issues/201
+            vertical-align: initial;
           }
         }
       }
